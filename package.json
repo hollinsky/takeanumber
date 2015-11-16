@@ -1,0 +1,23 @@
+{
+  "name": "takeanumber",
+  "version": "1.0.0",
+  "description": "======== by Paul Hollinsky",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPCookieMan/takeanumber.git"
+  },
+  "author": "Paul Hollinsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CPCookieMan/takeanumber/issues"
+  },
+  "homepage": "https://github.com/CPCookieMan/takeanumber#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
