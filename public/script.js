@@ -1,7 +1,7 @@
 function refresh() {
 	$.ajax('/getNumber', {
 		success: function(data, status, xhr) {
-			if($('h1').text() != data && $('h1').text() !== '•')
+			if($(document.body).hasClass('noisy') && $('h1').text() != data && $('h1').text() !== '•')
 				try { $('#notify')[0].play(); } catch(e) {}
 			$('h1').text(data);
 		}
