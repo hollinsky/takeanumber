@@ -18,3 +18,8 @@ by Paul Hollinsky
 2. Run `npm start`
 3. Navigate monitors to `http://[ipaddr]:3000/view`
 4. Navigate controllers to `http://[ipaddr]:3000/`
+
+## Donation
+Donations are never expected, but always appreciated.
+
+PayPal: paulhollinsky@gmail.com
